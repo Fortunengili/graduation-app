@@ -1,0 +1,85 @@
+/* GLOBAL FONT */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+/* HERO PAGE */
+.landing-bg {
+  background-image: url('/construction-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F8C8DC; /* fallback */
+}
+
+
+
+.hero-title {
+  color: #B30059; /* deep pink */
+  text-shadow: 2px 2px #ffffff;
+}
+
+.btn-hero {
+  background-color: #ff5c8a;
+  border-color: #ff5c8a;
+  padding: 12px 40px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+}
+
+.btn-hero:hover {
+  background-color: #ff2e63;
+  border-color: #ff2e63;
+}
+
+/* MAIN PAGE */
+.section-title {
+  color: #B30059;
+}
+
+.program-card {
+  border-radius: 12px;
+  background-color: #ffe4ef;
+}
+
+/* RSVP Button */
+.rsvp-btn {
+  background-color: #ff5c8a;
+  border-color: #ff5c8a;
+  padding: 12px 50px;
+  border-radius: 40px;
+}
+
+.rsvp-btn:hover {
+  background-color: #ff2e63;
+  border-color: #ff2e63;
+}
+
+/* Link Buttons */
+.link-btn {
+  padding: 10px 25px;
+  border-radius: 40px;
+  font-size: 1.1rem;
+}
+
+.landing-bg {
+  position: relative;
+  background-image: url('/construction-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(248, 200, 220, 0.55); /* pink overlay */
+  z-index: 0;
+}
+
+.landing-bg > * {
+  position: relative;
+  z-index: 1;
+}
