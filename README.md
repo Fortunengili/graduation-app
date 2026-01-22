@@ -6,7 +6,7 @@ The app showcased a well decorated hero-landing page followed by the days progra
 The app had a landing page followed by a page showcasing the days program. 
 It had links at the bottom redirecting to the spotify playlist, the location and an RSVP form.
 # Steps to Install:
-The first command in installing react was
+The following commands were used in installing react:
 1. npm create vite@latest graduation-app
 2. cd graduation-app
 3. npm install- installing dependencies
